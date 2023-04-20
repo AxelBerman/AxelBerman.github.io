@@ -21,7 +21,7 @@ div.carousel-caption{
 	display: grid;
 	grid-auto-columns: 30%;
 	padding: 20px 10% 0px 10%;
-	grid-gap: 50px 200px;
+	grid-gap: 50px 20px;
 }
 
 #grid-bandera{
