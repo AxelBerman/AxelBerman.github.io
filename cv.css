@@ -43,6 +43,9 @@ div.carousel-caption{
 
 .aptitud{
 	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .d-block{
