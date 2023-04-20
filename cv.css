@@ -20,7 +20,7 @@ div.carousel-caption{
 #grid-card{
 	display: grid;
 	grid-template-columns: auto;
-	padding: 20px 100px 0px 100px;
+	padding: 20px 10% 0px 10%;
 	grid-gap: 50px 200px;
 }
 
