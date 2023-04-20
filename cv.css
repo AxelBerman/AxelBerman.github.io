@@ -27,7 +27,7 @@ div.carousel-caption{
 #grid-bandera{
 	display: grid;
 	grid-template-columns: auto auto;
-	padding: 40px 50px 0px 50px;
+	padding: 40px 4% 20px 4%;
 	grid-gap: 10px 50px;
 }
 
@@ -38,7 +38,7 @@ div.carousel-caption{
 
 #bandera{
 	width: 100%;
-	height: 400px;
+	height: 100%;
 }
 
 .aptitud{
