@@ -18,10 +18,10 @@ div.carousel-caption{
 }
 
 #grid-card{
-	display: inline-grid;
+	display: grid;
 	grid-auto-columns: 30%;
 	padding: 20px 5% 0px 5%;
-	grid-gap: 50% 50%;
+	grid-gap: 20% 20%;
 }
 
 #grid-bandera{
