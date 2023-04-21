@@ -18,9 +18,9 @@ div.carousel-caption{
 }
 
 #grid-card{
-	display: grid;
+	display: inline-grid;
 	grid-auto-columns: 30%;
-	padding: 20px 10% 0px 10%;
+	padding: 20px 5% 0px 5%;
 	grid-gap: 50% 50%;
 }
 
