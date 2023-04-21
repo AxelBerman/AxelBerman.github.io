@@ -25,19 +25,19 @@ div.carousel-caption{
 	grid-gap: inherit;
 }
 
-#grid-bandera{
+#grid-empresa{
 	display: grid;
 	grid-template-columns: auto auto;
 	padding: 40px 4% 20px 4%;
 	grid-gap: 10px 50px;
 }
 
-#card-bandera{
+#card-empresa{
 	width: 100%;
 	text-align: right;
 }
 
-#bandera{
+#empresa{
 	width: 100%;
 	height: 100%;
 }
