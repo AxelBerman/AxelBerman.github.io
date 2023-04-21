@@ -79,3 +79,6 @@ div.carousel-caption{
 	width: 100%;
 	color: #ffffff;
 }
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 90%;
+}
