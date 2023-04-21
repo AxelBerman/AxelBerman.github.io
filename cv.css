@@ -81,6 +81,7 @@ div.carousel-caption{
 }
 div.container, .container-lg, .container-md, .container-sm, .container-xl {
 	padding 10% 0px 0px 0px;
-	margin 10% 0px 10% 0px;
+	margin-right: 10%;
+	margin-left: 10%;
 	max-width: 90%;
 }
