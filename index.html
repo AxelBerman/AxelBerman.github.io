@@ -60,20 +60,64 @@
 				</form>
 			</div>
 		</nav>
-		<div>
-			<img class="foto_inicial img-fluid" src="foto inicial.jpg" alt="foto inicial">
-			Datos personales:
-			Nombre y apellido
-			Email de contacto
-			Perfil Linkedin
-			Teléfono de contacto
-			Localidad
-			Perfil profesional:
-			Descripción del perfil profesional del postulante
-			Botones para ir a cada seccion
-			Foto
-			Algo de bienvenida
-		</div>
+		<form class="index">
+			<img class="fotoinicial" src="foto inicial.jpg" alt="foto inicial">
+			<div class="row g-3">
+				<div class="col">
+					<label class="seccion my-2" for="text">Email de contacto</label>
+					<label class="datos" for="text">axberman@uade.edu.ar</label>
+				</div>
+				<div class="col">
+					<label class="seccion my-2" for="text">Nombre y Apellido</label>
+					<label class="datos" for="text">Axel Berman</label>
+				</div>
+				<div class="col">
+					<label class="seccion" for="text">Localidad</label>
+					<label class="datos" for="text">Villa Luro</label>
+				</div>
+			</div>
+			<div class="row g-3">
+				<div class="col">
+					<label class="seccion" for="text">Perfil Linkedin</label>
+					<a href="https://www.linkedin.com/in/axel-berman-2a389020b/" target="blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true" id="linkedin"></i></a>
+				</div>
+				<div class="col">
+					<label class="seccion" for="text">Perfil profesional</label>
+					<label class="datos" for="text">Estudiante de Ingeniería Informática</label>
+				</div>
+				<div class="col">
+					<label class="seccion" for="text">Teléfono de contacto</label>
+					<label class="datos" for="text">11-4178-5569</label>
+				</div>
+			</div>
+			<label class="seccion" for="text">Descripción del perfil profesional</label>
+			<label class="datos" for="text">Descripción del perfil profesional</label>
+			<div class="row g-4" id="botonesindice">
+				<div class="col">
+					<a class="btn btn-secondary btn-lg" href="estudios.html" type="estudios" id="botonindice">Estudios</a>
+				</div>
+				<div class="col">
+					<a class="btn btn-secondary btn-lg" href="aptitudes.html" type="aptitudes" id="botonindice">Aptitudes</a>
+				</div>
+				<div class="col">
+					<a class="btn btn-secondary btn-lg" href="idiomas.html" type="idiomas" id="botonindice">Idiomas</a>
+				</div>
+				<div class="col">
+					<a class="btn btn-secondary btn-lg" href="experiencia.html" type="experiencia" id="botonindice">Experiencia</a>
+				</div>
+			</div>
+			<div class="row g-3" id="botonesindice">
+				<div class="col">
+					<a class="btn btn-secondary btn-lg" href="certificados.html" type="certificados" id="botonindice">Certificados</a>
+				</div>
+				<div class="col">
+					<a class="btn btn-secondary btn-lg" href="contacto.html" type="contacto" id="botonindice">Contacto</a>
+				</div>
+				<div class="col">
+					<a class="btn btn-secondary btn-lg" href="login.html" type="login" id="botonindice">Login</a>
+				</div>
+			</div>
+		</form>
 		<footer class="bg-dark">
 			<div class="pie">
 				Derechos reservados - Axel Berman y Tomas Garberi
